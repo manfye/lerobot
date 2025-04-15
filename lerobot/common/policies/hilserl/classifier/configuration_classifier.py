@@ -4,6 +4,7 @@ from typing import List
 from lerobot.common.optim.optimizers import AdamWConfig, OptimizerConfig
 from lerobot.common.optim.schedulers import LRSchedulerConfig
 from lerobot.configs.policies import PreTrainedConfig
+from lerobot.common.policies.normalize import NormalizationMode
 
 
 @PreTrainedConfig.register_subclass(name="hilserl_classifier")
