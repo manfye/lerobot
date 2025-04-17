@@ -274,9 +274,6 @@ def record(
     # Load pretrained policy
     policy = None if cfg.policy is None else make_policy(cfg.policy, ds_meta=dataset.meta)
 
-    # Load pretrained policy
-    policy = None if cfg.policy is None else make_policy(cfg.policy, ds_meta=dataset.meta)
-
     if not robot.is_connected:
         robot.connect()
     listener, events = init_keyboard_listener(assign_rewards=cfg.assign_rewards)
