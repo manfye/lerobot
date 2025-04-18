@@ -17,7 +17,7 @@ This script configure a single motor at a time to a given ID and baudrate.
 Example of usage:
 ```bash
 python lerobot/scripts/configure_motor.py \
-  --port /dev/tty.usbmodem585A0080521 \
+  --port /dev/tty.usbmodem58FA0922481 \
   --brand feetech \
   --model sts3215 \
   --baudrate 1000000 \
